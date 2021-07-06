@@ -12,7 +12,7 @@ function sumar()
 	numero1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	numero2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 	
-	resultado = numero1 + numero2;
+	resultado = (numero1 + numero2);
 
 	alert("La suma es igual a: " + resultado);
 }
@@ -26,7 +26,7 @@ function restar()
 	numero1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	numero2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 
-	resultado = numero1 - numero2;
+	resultado = (numero1 - numero2);
 
     alert("La resta es igual a: " + resultado);	
 }
@@ -40,7 +40,7 @@ function multiplicar()
 	numero1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	numero2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 
-	resultado = numero1 * numero2;
+	resultado = (numero1 * numero2);
 
 	alert("La multiplicacion es igual a: " + resultado);
 	
@@ -55,7 +55,7 @@ function dividir()
 	numero1 = parseInt(document.getElementById('txtIdNumeroUno').value);
 	numero2 = parseInt(document.getElementById('txtIdNumeroDos').value);
 
-	resultado = numero1 / numero2;
+	resultado = (numero1 / numero2);
 
 	alert("La division es igual a: " + resultado);
 	
