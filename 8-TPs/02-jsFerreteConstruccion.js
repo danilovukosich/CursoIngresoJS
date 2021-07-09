@@ -32,6 +32,22 @@ function Circulo ()
 
 function Materiales () 
 {
+	var largoTerreno;
+	var anchoTerreno;
+	var areaTerreno;
+	var resultadoCemento;
+	var resultadoCal;
+
+	largoTerreno = parseInt(document.getElementById('txtIdLargo').value);
+	anchoTerreno = parseInt(document.getElementById('txtIdAncho').value);
+
+	areaTerreno = largoTerreno * anchoTerreno;
+	resultadoCemento = areaTerreno * 2;
+	resultadoCal = areaTerreno * 3;
+
+	alert("Se necesitaran " + resultadoCemento + " bolsas de cemento y " + resultadoCal + " bolsas de Cal");
+
+
 	
 
 	
