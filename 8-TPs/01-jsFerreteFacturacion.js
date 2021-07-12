@@ -38,6 +38,7 @@ function PrecioFinal ()
 	var precio1;
 	var precio2;
 	var precio3;
+	//var iva; 1,21;
 	var iva1;
 	var iva2;
 	var iva3;
