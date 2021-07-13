@@ -20,6 +20,12 @@ function mostrar()
 
 	alert("chau");
 
+	/*Operadores:
+	aritmeticos: + - * / %
+	relacionales: >, <, >=, <=, ==, !=: verdadero-falso
+	logicos: y (&&), o (||), no (!)
+	*/
+
 
 	
 

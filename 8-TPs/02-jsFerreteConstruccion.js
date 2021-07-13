@@ -15,7 +15,7 @@ function Rectangulo ()
 
 	resultado = ((largoTerreno * 2) + (anchoTerreno * 2)) * 3;
 
-	alert("Los metros necesarios para hacer el peririmetro del terreno son: " + resultado);
+	alert("Los metros necesarios para hacer el peririmetro del terreno son: " + resultado + "mts.");
 
 }
 
@@ -25,7 +25,7 @@ function Circulo ()
 	var resultado;
 
 	radioTerreno = parseFloat(document.getElementById('txtIdRadio').value);
-	resultado = 2 * 3.14 * radioTerreno;
+	resultado = (2 * 3.14 * radioTerreno) * 3;
 
 	alert("Se necesita " + resultado + "mts de alambre.");
 }
