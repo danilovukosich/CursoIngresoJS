@@ -29,7 +29,7 @@ function mostrar()
 		break;
 
 		default:
-			mensaje = no se ingreso
+			mensaje = "no se ingreso";
 		break;
 
 
