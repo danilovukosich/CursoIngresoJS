@@ -9,7 +9,8 @@ function mostrar()
 	while(i < 10)
 	{
 		document.write( (i+1) + "<br>");
-		i = i + 1;//incremento de la variable de control.
+		i = i + 1;//INCREMENTO de la variable de control.
+		//o i++;
 
 	}
 

@@ -31,7 +31,7 @@ function mostrar()
 	var diferencia;
 
 
-	respuesta="si";
+	respuesta=true;
 	sumaNegativos = 0;
 	sumaPositivos = 0;
 	cantidadNegativos = 0;
@@ -39,7 +39,7 @@ function mostrar()
 	cantidadCeros = 0;
 	cantidadPares = 0;
 
-	while(respuesta=="si")
+	while(respuesta==true)
 	{
 		numeroIngresado = prompt("ingrese un numero");
 		numeroIngresado = parseInt(numeroIngresado);
@@ -69,11 +69,8 @@ function mostrar()
 		}
 
 
-		respuesta=prompt("desea continuar?");
+		respuesta=confirm("desea continuar?");
 	}//fin del while
-
-	promedioNegativos= sumaNegativos/cantidadNegativos;
-	promedioPositivos= sumaPositivos/cantidadPositivos;
 
 	diferencia = sumaPositivos - sumaNegativos;
 
@@ -83,7 +80,19 @@ function mostrar()
 	document.write("la cantidad de positivos es de:" + cantidadPositivos + "<br>");
 	document.write("la cantidad de ceros es de:" + cantidadCeros + "<br>");
 	document.write("la cantidad de pares es de:"  + cantidadPares + "<br>");
+
+	promedioNegativos= sumaNegativos/cantidadNegativos;
+	promedioPositivos= sumaPositivos/cantidadPositivos;
+
 	document.write("el promedio de los negativos es de:" + promedioNegativos + "<br>");
 	document.write("el promedio de los positivos es:" + promedioPositivos + "<br>");
 	document.write("la diferenciaes de:" + diferencia);
 }//FIN DE LA FUNCIÓN
+
+
+
+
+
+
+
+
